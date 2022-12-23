@@ -17,7 +17,7 @@ Post.init(
     },
     content: {
       type: DataTypes.TEXT,
-      allowNull: fale
+      allowNull: false
     },
     id_user: {
       type: DataTypes.INTEGER,
@@ -36,4 +36,4 @@ Post.init(
   }
 );
 
-module.exports = Project;
+module.exports = Post;
